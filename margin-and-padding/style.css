@@ -1,31 +1,50 @@
 body {
-    max-width: 600px;
-    margin: 0 auto;
+    background: #eee;
+    font-family: sans-serif;
+    font-size: 16pt;
   }
   
-  .one {
-    background: pink;
-    border: 3px solid blue;
-    /* CHANGE ME */
-    padding: 30px;
-    margin-left: 10px;
-    margin-right: 10px;
+  .card {
+    width: 600px;
+    background: #fff;
+    margin: 16px auto;
+    padding: 10px;
   }
   
-  .two {
-    background: lightblue;
-    border: 3px solid purple;
-    /* CHANGE ME */
-    margin-bottom: 0px;
-    margin-top: 10px;
+  .title {
+    background: #e3f4ff;
+    padding: 10px;
+    margin: 5px;
+    margin-bottom: 10px;
+    font-size: 20pt;
   }
   
-  .three {
-    background: peachpuff;
-    border: 3px solid brown;
-    width: 185px;
-    /* CHANGE ME */
-    padding: 30px;
-    margin-left: 350px;
-    margin-top: 50px;
+  .content {
+    background: #e3f4ff;
+    padding: 10px;
+    margin: 5px;
+    margin-bottom: 10px;
+    font-size: 20pt;
+
+  }
+  
+  .button-container {
+    background: #e3f4ff;
+    text-align: center;
+    margin: 5px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  
+  button {
+    background: white;
+    font-size: 16pt;
+    border: 1px solid #eee;
+    text-align: center;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 8px;
+    padding-bottom: 8px;
   }

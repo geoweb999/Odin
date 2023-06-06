@@ -49,7 +49,7 @@ body {
   gap: 10px;
   color: rgb(150, 149, 149);
   padding-top: 5px;
-  margin-right: 10%;
+  margin-right: 5%;
 }
 
 .two-box {
@@ -73,7 +73,7 @@ body {
 .lb-title{
   font-size: 36px;
   font-weight: 700;
-
+  color: #f9faf8
 }
 
 .lb-text{
@@ -97,5 +97,5 @@ button {
 
 .right-box {
   display: flex;
-  padding-right: 10%;
+  padding-right: 5%;
 }

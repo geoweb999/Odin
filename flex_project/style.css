@@ -1,91 +1,101 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+ul {
+  list-style-type: none;
+}
+
+img {
+  -webkit-filter: invert(1);
+  filter: invert(1);
+  }
+
+a {
+  text-decoration: none;
+  font-size: 14px;
+  color: rgb(149, 149, 149);
+}
 
 body {
-  height: 100vh;
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
 }
 
-img {
-  width: 600px;
-}
-
-button {
-  font-family: Roboto, sans-serif;
-  border: none;
-  border-radius: 8px;
-  background: #eee;
-  padding: 8px;
-}
-
-input {
-  border: 1px solid #ddd;
-  border-radius: 16px;
-  padding: 8px 24px;
-  width: 400px;
-  margin-bottom: 16px;
-}
-
-ul {
-  list-style-type:none;
-  text-decoration:none;  
-  font-size: 12px;
-}
-
-a {
-  text-decoration:none;  
-  color: #545454;
-}
-
-.header .footer {
+.header {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px;
+  flex-direction: column;
+  background-color: #1F2937;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: auto;
+  padding-bottom: 60px;
 }
 
 .nav-top {
+  margin-left: 5%;
+  margin-right: auto;
   display: flex;
-  width: 100%;
+  justify-content: space-between;
+  width: 95%;
+  height: 20%;
 }
 
-.nav{
+.logo {
   display: flex;
-  width: 100%;
-  background-color: lightgray;
-}
-
-.left-links {
-  display: flex;
-  gap: 16px;
 }
 
 .right-links {
   display: flex;
-  gap: 16px;
-  margin-left: auto;
-  flex: auto 1;
   justify-content: flex-end;
-  padding-right: 20px;
+  text-align: right;
+  gap: 10px;
+  color: rgb(150, 149, 149);
+  padding-top: 5px;
+  margin-right: 10%;
 }
 
-.footer {
-  bottom: 0%;
-  position:fixed;
-  width: 100%;
-  margin-right: 10px;
-
+.two-box {
+  margin-top: 48px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
-.content {
+.left-box {
   display: flex;
   flex-direction: column;
-  align-content: center;
-  align-items: center;
-  padding: 10px;
-  text-align: center;
-  justify-content: center;
-  height: 75%;
-  padding-bottom: 30px;
+  justify-content: space-between;
+  color: white;
+  width: 35%;
+  margin-left: 5%;
+  margin-right: 15%;
+  gap: 4px;
+}
+
+.lb-title{
+  font-size: 36px;
+  font-weight: 700;
+
+}
+
+.lb-text{
+  font-size: 14px;
+  color: rgb(150, 150, 150);
+  font-weight: 300;
+}
+
+button {
+  background-color: #3882F6;
+  color: white;
+  width: 80px;
+  border-radius: 8px;
+  font-size: 14px;
+  padding: 6px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border: none;
+  outline: none;
+}
+
+.right-box {
+  display: flex;
+  padding-right: 10%;
 }

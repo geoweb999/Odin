@@ -5,7 +5,7 @@ function playRound () {
     let goodInput = false;
     let choices = new Set(["rock", "paper", "scissor"]);
     while (!goodInput) {
-        var choice = prompt("Enter 'rock', 'paper', or 'scisoor': ");
+        var choice = prompt("Enter 'rock', 'paper', or 'scissor': ");
         choice = choice.toLowerCase();
         goodInput = choices.has(choice);
     }
